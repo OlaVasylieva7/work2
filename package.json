@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/work2/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server" : "json-server --watch db.json -p 4040"
   },
   "devDependencies": {
     "glob": "^11.0.0",
+    "i": "^0.3.7",
+    "json-server": "^1.0.0-beta.3",
+    "npm": "^10.9.1",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^5.4.2"
